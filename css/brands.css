@@ -25,6 +25,24 @@ button {
 	border-radius: 8px;
 	cursor: pointer;
 }
+
+.button2,
+button {
+	display: inline-block;
+	text-decoration: none;
+	height: 48px;
+	text-align: center;
+	vertical-align: middle;
+	font-size: 12px;
+	width: 300px;
+	font-weight: 700;
+	line-height: 48px;
+	letter-spacing: 0.1px;
+	white-space: wrap;
+	border-radius: 8px;
+	cursor: pointer;
+}
+
 button:hover,
 .button:focus {
 	color: #333;
@@ -37,6 +55,22 @@ button:hover,
 }
 .button.button-primary:hover,
 .button.button-primary:focus {
+	color: #fff;
+	filter: brightness(90%);
+}
+
+button2:hover,
+.button2:focus {
+	color: #333;
+	border-color: #888;
+	outline: 0;
+}
+.button2.button-primary {
+	color: #fff;
+	filter: brightness(90%);
+}
+.button2.button-primary:hover,
+.button2.button-primary:focus {
 	color: #fff;
 	filter: brightness(90%);
 }
@@ -87,8 +121,6 @@ button:hover,
 /* Default email */
 .button.button-email {
 	color: #ffffff;
-	background-color: #4885ed;
-	font-size: 12px;
 }
 .button.button-default:hover,
 .button.button-default:focus {
