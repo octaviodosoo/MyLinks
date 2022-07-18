@@ -59,22 +59,6 @@ button:hover,
 	filter: brightness(90%);
 }
 
-button2:hover,
-.button2:focus {
-	color: #333;
-	border-color: #888;
-	outline: 0;
-}
-.button2.button-primary {
-	color: #fff;
-	filter: brightness(90%);
-}
-.button2.button-primary:hover,
-.button2.button-primary:focus {
-	color: #fff;
-	filter: brightness(90%);
-}
-
 /* Brand Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -98,7 +82,7 @@ button2:hover,
 	filter: brightness(90%);
 }
 
-/* Default curriculum */
+/* curriculum */
 .button.button-curriculum {
 	color: #ffffff;
 	background-color: #e61867;
@@ -108,7 +92,7 @@ button2:hover,
 	filter: brightness(90%);
 }
 
-/* Default portfolio */
+/* portfolio */
 .button.button-portfolio {
 	color: #ffffff;
 	background-color: #592583;
@@ -118,12 +102,13 @@ button2:hover,
 	filter: brightness(90%);
 }
 
-/* Default email */
-.button.button-email {
+/* Email */
+.button2.button-email {
 	color: #ffffff;
+	background-color: #f50000;
 }
-.button.button-default:hover,
-.button.button-default:focus {
+.button2.button-default:hover,
+.button2.button-default:focus {
 	filter: brightness(90%);
 }
 
