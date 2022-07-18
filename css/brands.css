@@ -85,9 +85,10 @@ button:hover,
 }
 
 /* Default email */
-.button.button-default {
+.button.button-email {
 	color: #ffffff;
 	background-color: #4885ed;
+	font-size: 12px;
 }
 .button.button-default:hover,
 .button.button-default:focus {
