@@ -42,6 +42,14 @@ button:hover,
 	filter: brightness(90%);
 }
 
+@media (max-width: 777px) {
+}
+
+button,
+.button {
+	margin-bottom: 1rem;
+}
+
 /* Brand Icons
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 
@@ -566,7 +574,7 @@ button:hover,
 /* Website */
 .button.button-web {
 	color: #ffffff;
-	background-color: #698dda;
+	background-color: #007bff;
 }
 .button.button-web:hover,
 .button.button-web:focus {
