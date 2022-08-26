@@ -124,10 +124,27 @@ p {
 /* Links
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
 a {
-	color: #0085ff;
+	text-decoration: none;
 }
+
+/*  when the user has not visited, hovered, or clicked on a link */
+a:link {
+	text-decoration: none;
+}
+
+/* after the user has visited the link */
+
+a:visited {
+	text-decoration: none;
+}
+/* — when the user hovers their mouse over the link */
+
 a:hover {
-	color: #0085ff;
+	text-decoration: none;
+}
+
+a:active {
+	text-decoration: none;
 }
 
 /* Code
